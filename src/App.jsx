@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Products from "./components/Products";
 import { IS_DEVELOPMENT } from "./config";
-import { CartProvider } from "./context/cartPro";
+import { CartProvider } from "./context/CartPro";
 
 import { useFilters } from "./Hooks/useFilters";
 import { products as initialProducts } from "./mocks/products.json";
